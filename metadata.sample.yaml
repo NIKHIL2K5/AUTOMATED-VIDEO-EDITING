@@ -1,0 +1,25 @@
+videos:
+	- file: ./raw_videos/sample1.mp4
+		trims:
+			- {start: 5.0, end: 20.0}
+	- file: ./raw_videos/sample2.mp4
+style: cinematic
+music_dir: ./music
+transitions:
+	default: crossfade
+	duration: 0.5
+captions:
+	font: Arial
+	fontsize: 40
+	position: bottom
+overlay:
+	title: "Demo Project"
+	subtitle: "Automated Edit"
+	watermark: ./branding/watermark.png
+	watermark_position: bottom-right
+highlight:
+	min_scene_len: 2.0
+	motion_threshold: 12.0
+	top_k: 5
+audio:
+	music_gain_db: -18.0

@@ -1,0 +1,15 @@
+moviepy>=1.0.3,<2
+opencv-python>=4.9.0
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+openai-whisper>=20231117
+numpy>=2,<2.3.0
+librosa>=0.10.2
+soundfile>=0.12.1
+noisereduce>=3.0.2
+PyYAML>=6.0.2
+rich>=13.7.1
+tqdm>=4.66.1
+scikit-image>=0.24.0
+scipy>=1.11.4
+# Torch on Windows may require manual installation; see pytorch.org
